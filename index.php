@@ -31,12 +31,8 @@ if(!isset($_SESSION['access_token'])){
 						<td><?php echo $_SESSION['userData']['id'] ?></td>
 					</tr>
 					<tr>
-						<td>First Name</td>
-						<td><?php echo $_SESSION['userData']['first_name'] ?></td>
-					</tr>
-					<tr>
-						<td>Last Name</td>
-						<td><?php echo $_SESSION['userData']['last_name'] ?></td>
+						<td>Name</td>
+						<td><?php echo $_SESSION['userData']['name'] ?></td>
 					</tr>
 					<tr>
 						<td>Email</td>

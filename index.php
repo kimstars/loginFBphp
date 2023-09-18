@@ -41,6 +41,8 @@ if(!isset($_SESSION['access_token'])){
 				</tbody>
 			</table>
 		</div>
+		<a href="logout.php">Log Out Btn</a>
+
 	</div>
 </div>
 
